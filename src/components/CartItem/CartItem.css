@@ -1,0 +1,20 @@
+.cart-item {
+    display: flex;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    align-items: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.cart-item:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cart-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
